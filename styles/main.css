@@ -1,3 +1,8 @@
 body {
     background-image: url(../images/book-of-kells.jpg);
 }
+
+.pageinfo {
+    background-color: #faebd7bf;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
