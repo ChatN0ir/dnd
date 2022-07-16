@@ -1,8 +1,84 @@
 body {
     background-image: url(../images/book-of-kells.jpg);
+    height: 100%;
+    width: auto;
+    display: flex;
+    
 }
 
 .pageinfo {
     background-color: #faebd7bf;
     font-family: Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid #000000;
+    padding: 2px;
+    margin: 5px;
+    border-radius: 24px;
 }
+
+.mainheader {
+    border: 1px solid #000000;
+    background-color: #5f8d74 ;
+    padding: 2px;
+    margin: 3px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 24px;
+    
+}
+
+.content {
+    padding: 10px;
+}
+
+p {
+    border: 1px solid #5f8d74;
+    padding: 5px;
+    margin: 3px;
+    text-align: left;
+    border-radius: 12px;
+}
+
+.boutme {
+    border: 1px solid #5f8d74;
+    padding: 10px;
+    background-color: #5f8d74;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+
+}
+
+.ages {
+    display: flex;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.links {
+    display: flex;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.ages li {
+    border: 1px solid #5f8d74;
+    height:20px;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    background-color: #5f8d74;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.links li {
+    border: 1px solid #5f8d74;
+    height:20px;
+    width: 130px;
+    text-align: center;
+    padding: 10px;
+    background-color: #5f8d74;
+    margin: 10px;
+    border-radius: 12px;
+}
+
