@@ -1,15 +1,51 @@
 body {
-    color: #3eb489;
-    background-color: black;
+    color: #faebd7bf;
+    background-color:#faebd7bf;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dm {
+    background-image: url(../images/city.jpg);
+    height: 100%;
+    width: auto;
+}
+
+.dark {
+    background-color:#383b3a;
+    opacity: 0.95;
+    border: 1px solid #383b3a;
+    border-radius: 24px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bg {
+    background-image: url(../images/town.jpg);
+    height: 100%;
+    width: auto;
+    display: inline-block;
+}
+
+.world {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid #000000;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 24px;
+    
 }
 
 h1 {
     color: #ff5100;
     font-size: 28px;
+    margin: 15px;
+    text-align: center;
 }
 
 h2 {
     color: #ff5100;
     font-size: 28px;
+    margin: 15px;
+    text-align: center;
+    text-shadow: #ffffff;
 }
