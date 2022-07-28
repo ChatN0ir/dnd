@@ -1,5 +1,5 @@
 body {
-    color: #faebd7bf;
+    color: #383b3a;
     background-color:#faebd7bf;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -8,6 +8,7 @@ body {
     background-image: url(../images/city.jpg);
     height: 100%;
     width: auto;
+    color: #faebd7bf;
 }
 
 .dark {
