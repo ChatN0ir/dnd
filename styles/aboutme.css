@@ -48,6 +48,9 @@ h1 {
 
 .section-one {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .item {
@@ -145,5 +148,16 @@ h3 {
     padding: 15px;
     border-radius: 8px;
     justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    max-height: 500px;
+    align-self: center;
+}
+
+.box-right {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
